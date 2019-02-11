@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>datscha fröhden</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Noticia+Text|Roboto|Glegoo|Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+  <!--navbar starts here-->
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="d-flex flex-grow-1">
+        <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+        <a class="navbar-brand d-none d-lg-inline-block" href="index.html">
+            <img src="img/dfchickenitalic.png" alt="Datscha Fröhden" class="logo">
+        </a>
+        <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="index.html">
+            <!-- <img src="//placehold.it/40?text=LOGO" alt="Datscha Fröhden"> -->
+        </a>
+        <div class="w-100 text-right">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+          <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+      </div>
+      <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <li class="nav-item">
+            <a href="house.html" class="nav-link m-2 menu-item nav-active">house</a>
+          </li>
+          <li class="nav-item">
+            <a href="projects.html" class="nav-link m-2 menu-item">events</a>
+          </li>
+          <li class="nav-item">
+            <a href="location.html" class="nav-link m-2 menu-item">location</a>
+          </li>
+          <li class="nav-item">
+            <a href="http://tuktuknogood.com/category/house/" target="_blank" class="nav-link m-2 menu-item">blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link m-2 menu-item">contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--end nav-->
+
+    <div class="container-fluid anchor" id="contact">
+      <div class="col-lg-6 col-md-6 contact-pic">
+      </div> 
+      <div class="col-lg-6 col-md-6" id="contact-us">
+        <h1 id="in-touch">contact us</h1>
+        <form id="contact-form">
+
+            <div class="form-group">
+              <input type="text" placeholder="name" id="name" required="required" class="form-control">
+              <p id="visible-name"></p>
+            </div>
+
+            <div class="form-group">
+              <input type="text" placeholder="phone number" id="phone-number" minlength=8 maxlength=11 class="form-control">
+              <p id="visible-phone-number"></p>
+            </div>
+
+            <div class="form-group">
+              <input type="email" placeholder="email address" id="email" required="required" minlength=10 class="form-control">
+              <p id="visible-email"></p>
+            </div>
+
+            <div class="form-group">
+              <textarea style="resize:none" cols="40" rows="5" class="form-control" id="message-box" placeholder="write us a message"></textarea>
+              <p id="visible-comment"></p>
+              <p id="char-count"></p>
+            </div>
+
+
+            <button type="submit" class="btn btn-default" id="submit-button">send</button>
+        </form>
+      </div><!--end col 6-->
+    </div><!--end row-->
+
+
+  </body>
+</html>

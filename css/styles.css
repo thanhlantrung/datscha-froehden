@@ -1,0 +1,344 @@
+
+
+#home {
+
+}
+
+
+.carousel-indicators {
+  bottom: -30px;
+}
+
+#about {
+    padding-bottom: 200px;
+    background-image: url("../img/sunflowers.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#about p {
+    color: black;
+}
+
+#about-heading {
+    color: #289b8f;
+    padding-top: 30px;
+}
+#about-div {
+    width: 50%;
+    padding-left: 50px;
+    background-color: #FFD88F;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    margin-left: 30px;
+    top: 100px;
+}
+
+#about-div p {
+    text-align: justify;
+}
+
+.carousel-control.right, .carousel-control.left {
+  background-image:none;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+}
+
+.text {
+    font-size: 15px;
+}
+
+.caption {
+    width: 60%;
+    margin-left: 160px;
+    font-style: italic;
+}
+#trips {
+    background-color: white;
+    padding-bottom: 250px;
+    background-size: cover;
+}
+#contact {
+    padding-bottom: 120px;
+}
+
+
+
+
+
+/*nav*/
+.navbar,
+.navbar-collapse {
+	background: white;
+	border-color: white;
+    box-shadow: none;
+}
+
+.nav {
+	color: white;
+	letter-spacing: 1.4px;
+	font-family: "Playfair Display";
+    letter-spacing: 2px;
+	font-weight: bold;
+    background: none;
+}
+
+.navbar-inverse li a {
+    color: #FAB940;
+}
+.navbar-nav li a {
+    color: #FAB940;
+}
+
+.nav li a:hover {
+    color: #FFD88F !important;
+}
+.navbar-fixed-top {
+    background-color: white;
+}
+
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover {
+	background-color: white;
+	color: #FAB940;
+}
+
+a, p {
+    font-family: Lato;
+}
+
+h1 {
+    font-family: "Playfair Display";
+    color: #289b8f;
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 1.5px;
+    
+}
+
+.nav-link {
+    letter-spacing: .8px;
+}
+
+.heading {
+    color: #289b8f;
+    letter-spacing: 1.5px;
+}
+
+#my-carousel {
+    margin-top: 40px;
+}
+
+#df {
+    margin-top: 60px;
+    font-size: 6em;
+    color: #289b8f;
+    margin-bottom: 100px;
+}
+
+#bestsellers {
+    margin-top: 40px;
+}
+
+h2 {
+    font-family: Glegoo;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-size: 1.2em;
+    color: #D9C7C1;
+    font-style: italic;
+}
+p { 
+    text-align: center;
+    color: #046F64;
+}
+
+a {
+    color: #FAB940 !important;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+#customise {
+    margin-bottom: 40px;
+}
+#tour1,
+#tour2,
+#tour3 {
+    border-radius: 5px;
+    height: 250px;
+    color: lightgrey;
+    font-style: italic;
+}
+
+#tour1 {
+    background-image: url("../img/vn6.jpg");
+    background-size: cover;
+}
+
+#tour2 {
+    background-image: url("../img/vn5.jpg");
+    background-size: cover;
+}
+
+#tour3 {
+    background-image: url("../img/vn8.jpg");
+    background-size: cover;
+}
+
+.tour-title {
+    padding-top: 90px;
+    font-family: "Playfair Display";
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-style: normal;
+    color: #0A9284;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: transparent;
+    letter-spacing: 1.5px;
+    border: 1px solid lightgrey;
+    color: lightgrey;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.btn-primary:hover {
+    background-color: #FAB940;
+    border: 1px solid lightgrey;
+}
+
+#bestsellers .btn-primary:focus, 
+#bestsellers .btn-primary:active, 
+#bestsellers .btn-primary.active {
+    background-color: #D9C7C1;
+    border: 1px solid lightgrey;
+    outline: none;
+}
+
+#modal1,
+#modal2,
+#modal3 {
+    top: 20%;
+}
+.modal-title {
+    text-align: center;
+}
+
+.modal-body {
+    text-align: justify;
+}
+
+.contact-pic {
+    display: inline-block;
+    background: url("../img/newbies.jpg");
+    width: 100%;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 30px;
+}
+
+#contact-us {
+    padding-right: 50px;
+    float: right;
+}
+
+#in-touch {
+    text-align: left;
+    color: #289b8f;
+}
+
+
+#contact-heading {
+    text-align: left;
+}
+
+#submit-button,
+#name,
+#phone-number,
+#email,
+#message-box {
+    letter-spacing: 1.5px;
+}
+
+.form-control {
+    width: 80%;
+}
+
+footer {
+    background-color: transparent;
+}
+
+/*media*/
+@media only screen
+and (max-width: 1157px) {
+
+
+}
+
+
+@media only screen 
+and (max-width: 1200px) {
+
+.img-circle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    float: left;
+    }
+
+.caption {
+    margin-left: 0;
+    float: right;
+}
+
+.caption p {
+    text-align: justify;
+}
+#about-heading {
+    margin-top: 50px;
+}
+#about {
+    background-image: url("../img/sunflowers.jpg.jpg");
+    background-size: cover;
+
+}
+
+#tour1, #tour2, #tour3 {
+    margin-bottom: 10px;
+}
+}
+
+iframe {
+    width: 100%;
+    height: 250px;
+    border:0;
+    margin-bottom: 20px;
+
+    @media (min-width: 768px) {
+    width: 100%;
+    height: 450px;
+    }
+    }
+.test {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 160px;
+    margin-left: 20px;
+}
