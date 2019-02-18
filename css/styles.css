@@ -11,11 +11,34 @@
 
 #about {
     padding-bottom: 200px;
-    background-image: url("../img/sunflowers.jpg");
+    background-image: url("../img/chickens.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
+#trips {
+    padding-bottom: 200px;
+    padding-top: 100px;
+    background-image: url("../img/chickensdrinking.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#trips-div, #findus-div {
+    background-color: #FFD88F;
+    width: 700px;
+    top: 100px;
+    margin: 0 auto;
+}
+
+#trips-div {
+    padding: 40px 20px 150px;
+}
+#findus {
+    background-image: url("../img/forest.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+}
 #about p {
     color: black;
 }
@@ -89,10 +112,10 @@
 }
 
 .navbar-inverse li a {
-    color: #FAB940;
+    color: #d50b7a;
 }
 .navbar-nav li a {
-    color: #FAB940;
+    color: #d50b7a;
 }
 
 .nav li a:hover {
@@ -160,7 +183,7 @@ p {
 }
 
 a {
-    color: #FAB940 !important;
+    color: #d50b7a !important;
 }
 
 a:hover {
@@ -312,7 +335,7 @@ and (max-width: 1200px) {
     margin-top: 50px;
 }
 #about {
-    background-image: url("../img/sunflowers.jpg.jpg");
+    background-image: url("../img/sunflowers.jpg");
     background-size: cover;
 
 }
@@ -341,5 +364,8 @@ iframe {
 .logo {
     width: 160px;
     margin-left: 20px;
-}
 
+    @media (max-width: 991px) {
+        width: 50px;
+    }
+}
