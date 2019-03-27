@@ -50,7 +50,10 @@
     padding-top: 30px;
 }
 
-#about-div {
+#gallery-div {
+
+}
+#about-div, #gallery-div {
   margin: 0 auto;
   width: 60%;
   background-color: #fffde7;
@@ -81,8 +84,6 @@
 .text {
     font-size: 15px;
 }
-
-
 
 #contact {
     padding-bottom: 120px;
@@ -162,10 +163,6 @@ h1 {
     margin-bottom: 100px;
 }
 
-#bestsellers {
-    margin-top: 40px;
-}
-
 h2 {
     font-family: Glegoo;
     text-align: center;
@@ -207,19 +204,6 @@ a:hover {
     border: 1px solid lightgrey;
 }
 
-#bestsellers .btn-primary:focus, 
-#bestsellers .btn-primary:active, 
-#bestsellers .btn-primary.active {
-    background-color: #D9C7C1;
-    border: 1px solid lightgrey;
-    outline: none;
-}
-
-#modal1,
-#modal2,
-#modal3 {
-    top: 20%;
-}
 .modal-title {
     text-align: center;
 }
