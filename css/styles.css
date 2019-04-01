@@ -3,53 +3,47 @@
 }
 
 #about {
-  padding-bottom: 200px;
-  background-image: url("../img/cabbage.png");
+  background-image: url("../img/chicksbathing.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 #events {
-  padding-bottom: 200px;
   padding-top: 100px;
-  background-image: url("../img/chickensdrinkingbw.jpg");
-  background-size: cover;
   background-repeat: no-repeat;
+  background: url("../img/chickensdrinking.jpg");
+  background-size: cover;
 }
 
-#events-div, #findus-div {
-  background-color: #7acade;
+#events-div, #findus-div, #about-div, #house-div {
+  background-color: #ecf2f3c7;
   width: 60%;
-  top: 100px;
+/*  top: 100px;*/
   margin: 0 auto;    
 }
 
-@media (max-width: 992px) {
-  #findus-div, #events-div, #about-div {
-    width: 100% !important; 
-  }  
+#house {
+  background-image: url("../img/walkingchicks.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #findus {
-  background-image: url("../img/forestbw.jpg");
+  background-image: url("../img/forest.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 200px;
 }
 
 
-#about-div, #house-div {
-  margin: 0 auto;
-  width: 60%;
-  background-color: #7acade;
-  padding: 50px;
-  top: 100px;
+.blue-div {
+  margin-top: 80px !important;
+  padding: 0 40px 40px;
+}
 
-  @media (max-width: 992px) {
-      width: 100%;
+@media (max-width: 991px) {
+  #house-div, #about-div, #findus-div, #events-div {
+    width: 100%;
   }
 }
-
 .carousel-control.right, .carousel-control.left {
   background-image:none;
 }
@@ -72,14 +66,17 @@
 }
 
 .navbar-inverse li a {
-  color: #d50b7a;
+  /*color: #d50b7a;*/
+  color: #7acade;
 }
 .navbar-nav li a {
-  color: #d50b7a;
+  /*color: #d50b7a;*/
+  color: #7acade;
 }
 
 .nav li a:hover {
-  color: #FFD88F !important;
+  /*color: #FFD88F !important;*/
+  color: #7acade !important;
 }
 
 .navbar-fixed-top {
@@ -90,7 +87,8 @@
 .navbar-inverse .navbar-nav>.active>a:focus, 
 .navbar-inverse .navbar-nav>.active>a:hover {
 	background-color: white;
-	color: #FAB940;
+	/*color: #FAB940*/;
+  color: #7acade;
 }
 
 a, p {
@@ -99,7 +97,7 @@ a, p {
 
 h1 {
   font-family: "Playfair Display";
-  color: white;
+  color: #289B8F;
   text-align: center;
   font-size: 2em;
   letter-spacing: 1.5px;
@@ -132,11 +130,12 @@ h2 {
 }
 
 p { 
-  color: white;
+  color: black;
 }
 
 a {
-  color: #dd2477 !important;
+  /*color: #dd2477 !important*/;
+  color: #28bce1 !important;
 }
 
 a:hover {
@@ -157,11 +156,6 @@ a:hover {
 
 footer {
   background-color: transparent;
-}
-
-#about {
-  background-image: url("../img/sunflowers.jpg");
-  background-size: cover;
 }
 
 iframe {
@@ -196,34 +190,32 @@ iframe {
 }
 
 .pp {
-  background-size: contain;
-  width: 200px;
   height: 200px;
 }
 
 .artur {
   background: url("../img/cvo.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 .thanh {
   background: url("../img/cco.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 .diva {
   background: url("../img/diva.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 .leila {
   background: url("../img/leila.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 .kitty {
   background: url("../img/kitty.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 .us-profiles {
@@ -235,8 +227,28 @@ h3 {
   margin-top: 12px;
   margin-bottom: 0;
   text-align: left;
+  color: black;
+  text-align: center;
 }
 
 .lang-link {
-  margin-right: 5px;
+  padding-right: 5px;
+  color: #373737 !important;
+  vertical-align: -webkit-baseline-middle;
+  font-size: 12px;
+  padding: 8px 4px;
+}
+
+footer {
+  margin: 20px;
+}
+
+footer p {
+  text-align: center;
+  color: #289B8F;
+  margin-bottom: 0;
+}
+
+.anchor {
+  padding: 100px 0;
 }
