@@ -179,7 +179,7 @@ iframe {
 }
 
 .pp {
-  height: 200px;
+  height: 220px;
 }
 
 .artur {
@@ -204,6 +204,36 @@ iframe {
 
 .kitty {
   background: url("../img/kitty.jpg");
+  background-size: cover;
+}
+
+.sj {
+  background: url("../img/sj.jpg");
+  background-size: cover;
+}
+
+.cj {
+  background: url("../img/cj.jpg");
+  background-size: cover;
+}
+
+.pj {
+  background: url("../img/pj.jpg");
+  background-size: cover;
+}
+
+.adele {
+  background: url("../img/adele.jpg");
+  background-size: cover;
+}
+
+.mc {
+  background: url("../img/mateuszchicken.jpg");
+  background-size: cover;
+}
+
+.jc {
+  background: url("../img/justuschicken.jpg");
   background-size: cover;
 }
 
