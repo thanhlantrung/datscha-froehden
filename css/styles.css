@@ -32,7 +32,6 @@
   background-repeat: no-repeat;
 }
 
-
 .blue-div {
   margin-top: 80px !important;
   padding: 0 40px 40px;
@@ -287,4 +286,8 @@ footer p {
 
 .flag-de {
   background: url("../img/de.png");
+}
+
+.carousel {
+  margin-top: 100px;
 }
