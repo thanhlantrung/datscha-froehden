@@ -167,9 +167,6 @@ iframe {
 .logo {
   width: 160px;
   margin-left: 20px;
-  @media (max-width: 991px) {
-      width: 50px !important;
-  }
 }
 
 .person {
@@ -290,4 +287,15 @@ footer p {
 
 .carousel {
   margin-top: 100px;
+}
+
+@media (max-width: 619px) {
+  .logo {
+    width: 130px;
+    margin-left: 0;
+  }
+
+  .carousel {
+    margin-top: 80px;
+  }
 }
