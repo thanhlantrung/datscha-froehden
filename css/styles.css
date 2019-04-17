@@ -299,3 +299,23 @@ footer p {
     margin-top: 80px;
   }
 }
+
+@media (max-width: 991px) {
+  .flag {
+    margin-left: -15px;
+  }
+}
+
+@media (max-width: 991px) {
+  #about, #events, #house, #findus {
+    background: none;
+  }
+  
+  #about-div {
+    margin-top: 0 !important;
+  } 
+  
+  .anchor {
+    padding-bottom: 0;
+  }
+}
