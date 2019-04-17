@@ -311,7 +311,7 @@ footer p {
     background: none;
   }
   
-  #about-div {
+  #events-div, #findus-div, #about-div, #house-div {
     margin-top: 0 !important;
   } 
   
