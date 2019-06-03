@@ -233,6 +233,26 @@ iframe {
   background-size: cover;
 }
 
+.puffin {
+  background: url("../img/puffin.jpg");
+  background-size: cover;
+}
+
+.bobby {
+  background: url("../img/bobby.jpg");
+  background-size: cover;
+}
+
+.groschek {
+  background: url("../img/groschek.jpg");
+  background-size: cover;
+}
+
+.sprout {
+  background: url("../img/sprout.jpg");
+  background-size: cover;
+}
+
 .us-profiles {
   text-align: center;
 }
