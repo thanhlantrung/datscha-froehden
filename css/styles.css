@@ -188,6 +188,11 @@ iframe {
   background-size: cover;
 }
 
+.mat {
+  background: url("../img/mateusz.jpg");
+  background-size: cover;
+}
+
 .diva {
   background: url("../img/diva.jpg");
   background-size: cover;
@@ -224,12 +229,7 @@ iframe {
 }
 
 .mc {
-  background: url("../img/mateuszchicken.jpg");
-  background-size: cover;
-}
-
-.jc {
-  background: url("../img/justuschicken.jpg");
+  background: url("../img/amy.jpg");
   background-size: cover;
 }
 
