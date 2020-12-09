@@ -3,14 +3,14 @@
 }
 
 #about {
-  background-image: url("../img/chicksbathing.jpg");
+  background-image: url("../img/flowerbg.jpg");
   background-size: cover;
 }
 
 #events {
   padding-top: 100px;
   background-repeat: no-repeat;
-  background: url("../img/chickensdrinking.jpg");
+  background: url("../img/newsunflowerbg.jpg");
   background-size: cover;
 }
 
@@ -21,7 +21,7 @@
 }
 
 #house {
-  background-image: url("../img/walkingchicks.jpg");
+  background-image: url("../img/zinnia.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
